@@ -8,6 +8,7 @@
   "scripts": {
     "lint": "eslint .",
     "start": "node .",
+    "docker": "docker-compose up",
     "posttest": "npm run lint"
   },
   "dependencies": {
